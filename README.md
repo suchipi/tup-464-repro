@@ -1,4 +1,4 @@
-# tup gh issue XXX repro
+# tup gh issue 464 repro
 
 This repo demonstrates an undesirable difference in behavior between `tup 0.7.8-3 [debian]` and `tup v0.7.11-84-gc8bca8d8`.
 
