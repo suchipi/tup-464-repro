@@ -1,0 +1,3 @@
+: gen-header.c |> gcc %f -o %o |> gen-header
+: gen-header |> ./gen-header >> %o |> generated-header.h
+: myprog.c | generated-header.h |> gcc %f -o %o |> myprog
